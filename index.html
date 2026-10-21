@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Аши — онлайн-запись (макет)</title>
+<meta name="theme-color" content="#0f3d3e">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="logo">Аши <small>клиника косметологии</small></div>
+  <span class="badge">Макет онлайн-записи</span>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <p class="eyebrow">Иркутск · Депутатская, 25 · ежедневно 09:00–21:00 по записи</p>
+    <h1>Запись на процедуру <em>за минуту</em>, без звонка</h1>
+    <p class="lead">Так выглядит онлайн-запись, которую можно встроить в ваш сайт или в бот в Telegram. Попробуйте как клиент: выберите процедуру, время и оставьте контакты.</p>
+  </section>
+
+  <div class="app">
+    <section class="panel" id="panel">
+      <ol class="stepper" id="stepper"><li class="on">Процедура</li><li>Время</li><li>Контакты</li></ol>
+      <div id="stage"></div>
+    </section>
+
+    <aside class="side">
+      <h3>Что получит администратор</h3>
+      <div class="admin" id="admin"><p class="muted">Пока нет заявок. Пройдите запись слева.</p></div>
+      <h3>Что получит клиент</h3>
+      <div class="phone">
+        <div class="ph-head"><i></i><div><b>Аши</b><small>бот записи</small></div></div>
+        <div class="chat" id="chat"><div class="m bot">Здравствуйте! Здесь можно записаться на процедуру. Выберите её на сайте или напишите мне.</div></div>
+      </div>
+      <p class="muted small">В реальной версии заявка приходит вам в Telegram, WhatsApp или Max, а клиенту автоматически уходят подтверждение и напоминание за сутки.</p>
+    </aside>
+  </div>
+</main>
+
+<footer class="foot">Макет подготовлен для клиники «Аши». Процедуры из публичной карточки 2ГИС, время приёма и врачей подставим ваши. Заявки в макете никуда не отправляются.</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
